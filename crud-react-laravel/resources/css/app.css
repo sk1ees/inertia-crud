@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* index.css */
+:root {
+    --bg-color: #f8f9fa; /* Light mode background color */
+    --text-color: #212529; /* Light mode text color */
+    --card-color: #d1d5db;
+    --hover-color: #e2e8f0;
+}
+
+.dark {
+    --bg-color: #171717; /* Dark mode background color, equivalent to bg-neutral-900 */
+    --text-color: #ffffff; /* Dark mode text color */
+    --card-color: #2d2d2d;
+    --hover-color: #444444;
+}
+
+
+/* Hide scrollbar but allow scrolling */
+.hide-scrollbar::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and newer Edge */
+}
+
+.hide-scrollbar {
+    -ms-overflow-style: none;  /* For Internet Explorer and Edge */
+    scrollbar-width: none; /* For Firefox */
+}
+
+
